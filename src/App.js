@@ -49,7 +49,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="header">Todo App with React</div>
-        <p>NOTE: To delete a note , just click on it.Yeah! Its that simple.</p>
+        <p>NOTE: To delete a note , just click on it.Yeah!! Its that simple.</p>
         {notes}
         <div className="btn" onClick={this.addNote.bind(this)} > +</div>
         <input type="text" className="textInput"
